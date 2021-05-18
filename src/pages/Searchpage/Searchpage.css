@@ -1,0 +1,8 @@
+
+.container {
+    width: fit-content;
+    align-items: center;
+    display: flex;
+    margin: auto;
+    flex-flow: row wrap;
+}

@@ -1,0 +1,73 @@
+// --- Font-Family (ff)
+$ff-primary: "Roboto", sans-serif;
+$ff-secondary: "Poppins", sans-serif;
+
+// COLORS (clr)
+// Universal
+
+$clr-amber-100: #ffb91d;
+$clr-amber-200: #ea9c31;
+
+// Custom
+$clr-primary-100: #5d8afa;
+$clr-primary-300: #0c45d1;
+$clr-primary-400: #002583;
+$clr-primary-600: #243af0;
+
+$clr-secondary-100: #02298b;
+$clr-secondary-300: #0c1d48;
+$clr-secondary-500: #121814;
+
+$clr-neutral-100: #ffffff;
+$clr-neutral-200: #f4f5f7;
+$clr-neutral-250: #f2f2f2;
+$clr-neutral-300: #e1e1e1;
+$clr-neutral-350: #d3d3d3;
+$clr-neutral-400: #a4a4a4;
+$clr-neutral-450: #747474;
+$clr-neutral-500: #1d1b1b; // FIXME: should be a higher number
+$clr-neutral-600: #424857;
+$clr-neutral-700: #212121;
+
+$clr-success-100: #3dcc24;
+$clr-success-200: #179001;
+$clr-success-300: #106601;
+$clr-success-400: #16a22a;
+$clr-success-500: #06a22a;
+
+$clr-error-100: #ce4762;
+$clr-error-200: #d53900;
+$clr-error-300: #9c1720;
+$clr-error-400: #E30425;
+
+$clr-warning-100: #f0cb5f;
+$clr-warning-200: #ffbf00;
+$clr-warning-300: #c4a000;
+
+$clr-info-100: #92cffb;
+$clr-info-200: #349ce7;
+$clr-info-300: #0772bf;
+
+$clr-text: $clr-neutral-600;
+$clr-text-inverted: $clr-neutral-100;
+$clr-background: #e9ebf2;
+$clr-background-100: #f0efef;
+
+$clr-border: #e2e2e2;
+$clr-border-100: #bebebe;
+
+$clr-seperator: #eff4ff;
+$clr-divider: #9eb1de;
+$clr-shadow: #ced9f477;
+
+$clr-badge-background: #f0f5ff;
+$clr-thead-background: #f7f7f7;
+$clr-link-border: #cedcff;
+
+// LAYOUT
+$grid-width: 1280px;
+
+// Z - INDEX;
+
+$z-index-modal: 500;
+$z-index-navbar: 300;
